@@ -1,0 +1,39 @@
+a, ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+a{
+    cursor: pointer;
+}
+ul{
+    cursor: default;
+}
+body{
+    margin: 0;
+}
+.header__link{
+    color: #1F1534;
+    font-size: 18px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin-right: 40px;
+}
+.header__link:hover{
+    opacity: 1;
+    font-weight: 700;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding-left: 247px;
+}
+.header__logo{
+    margin-right: 256px;
+}
